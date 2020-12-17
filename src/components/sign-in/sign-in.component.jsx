@@ -1,5 +1,5 @@
 import React from 'react';
-import SignInUp from '../../pages/sign-in-up/sign-in-up.component';
+///import SignInUp from '../../pages/sign-in-up/sign-in-up.component';
 import FormInput from '../../components/form-input/form-input.component';
 import './sign-in.styles.scss';
 import CustomButton from '../../components/custom-button/custom-button.component'
@@ -33,8 +33,8 @@ class SignIn extends React.Component {
     render() {
         return(
             <div className='sign-in'>
-                <h2>I already Have account</h2>
-                <span>Sign in with your email and password</span>
+                <h2>Please Log In</h2>
+                
 
                 <form onSubmit={this.handleSubmit}>
                     <FormInput 
